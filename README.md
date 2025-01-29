@@ -1,8 +1,18 @@
-# React + Vite
+# Usage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+npm i
+npm run dev
+navigate to localhost:5173
 
-Currently, two official plugins are available:
+# Input
+Required fields: 
+Country ISO Code
+Start Date
+End Date
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Optional fields:
+language ISO code
+subdivision code
+
+https://openholidaysapi.org/swagger/index.html
+Project Idea from: https://reactpractice.dev/exercise/build-a-public-holidays-app/
